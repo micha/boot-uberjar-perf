@@ -27,7 +27,7 @@
   target {:dir #{"target"}}
   sift   {:include #{#"\.jar$"}}
   aot    {:namespace #{'foo.bar}}
-  pom    {:project 'foo/bar :version "0.1.0"})
+  pom    {:project 'foo/bar :version "0.1.0-SNAPSHOT"})
 
 (deftask uberjar
   []

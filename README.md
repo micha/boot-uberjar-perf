@@ -9,8 +9,8 @@ Implicit AOT of :main will be removed in Leiningen 3.0.0.
 If you only need AOT for your uberjar, consider adding :aot :all into your
 :uberjar profile instead.
 Compiling foo.bar
-Created /home/micha/git/micha/boot-uberjar-perf/target/bar-0.1.0-SNAPSHOT.jar
-Created /home/micha/git/micha/boot-uberjar-perf/target/bar-0.1.0-SNAPSHOT-standalone.jar
+Created target/bar-0.1.0-SNAPSHOT.jar
+Created target/bar-0.1.0-SNAPSHOT-standalone.jar
 
 real    0m6.654s
 user    0m7.224s

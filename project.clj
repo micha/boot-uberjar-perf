@@ -1,6 +1,7 @@
 (defproject foo/bar "0.1.0-SNAPSHOT"
   :description  "An example."
   :main         foo.bar
+  :profiles     {:uberjar {:aot :all}}
   :source-paths #{"src"}
   :repositories [["central" "https://repo1.maven.org/maven2/"]
                  ["clojars" "http://clojars.org/repo"]

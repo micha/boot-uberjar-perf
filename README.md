@@ -4,10 +4,6 @@
 $ time lein uberjar
 ```
 ```
-Warning: specified :main without including it in :aot. 
-Implicit AOT of :main will be removed in Leiningen 3.0.0. 
-If you only need AOT for your uberjar, consider adding :aot :all into your
-:uberjar profile instead.
 Compiling foo.bar
 Created target/bar-0.1.0-SNAPSHOT.jar
 Created target/bar-0.1.0-SNAPSHOT-standalone.jar

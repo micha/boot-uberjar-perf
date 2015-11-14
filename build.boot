@@ -26,8 +26,9 @@
   jar    {:main 'foo.bar}
   target {:dir #{"target"}}
   sift   {:include #{#"\.jar$"}}
-  aot    {:namespace #{'foo.bar}})
+  aot    {:namespace #{'foo.bar}}
+  pom    {:project 'foo/bar :version "0.1.0"})
 
 (deftask build
   []
-  (comp (uber) (aot) (jar) (sift) (target)))
+  (comp (uber) (aot) (pom) (jar) (sift) (target)))

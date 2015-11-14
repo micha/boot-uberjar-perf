@@ -17,7 +17,7 @@ user    0m7.224s
 sys     0m1.596s
 ```
 ```
-$ time boot build
+$ time boot uberjar
 ```
 ```
 Adding uberjar entries...

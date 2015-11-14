@@ -29,6 +29,6 @@
   aot    {:namespace #{'foo.bar}}
   pom    {:project 'foo/bar :version "0.1.0"})
 
-(deftask build
+(deftask uberjar
   []
   (comp (uber) (aot) (pom) (jar) (sift) (target)))
